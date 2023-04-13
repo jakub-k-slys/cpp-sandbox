@@ -1,0 +1,662 @@
+[
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -I . -I bazel-out/darwin-fastbuild/bin -x c++ -std=c++20 -Ilib/include -c lib/source/word_generator.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "lib/source/word_generator.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -I . -I bazel-out/darwin-fastbuild/bin -x c++ -std=c++20 -Ilib/include -c lib/include/word_generator.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "lib/include/word_generator.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/arraysize.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/arraysize.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/benchmark.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/benchmark.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/benchmark_api_internal.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/benchmark_api_internal.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/benchmark_api_internal.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/benchmark_api_internal.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/benchmark_name.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/benchmark_name.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/benchmark_register.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/benchmark_register.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/benchmark_register.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/benchmark_register.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/benchmark_runner.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/benchmark_runner.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/benchmark_runner.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/benchmark_runner.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/check.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/check.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/check.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/check.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/colorprint.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/colorprint.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/colorprint.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/colorprint.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/commandlineflags.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/commandlineflags.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/commandlineflags.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/commandlineflags.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/complexity.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/complexity.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/complexity.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/complexity.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/console_reporter.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/console_reporter.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/counter.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/counter.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/counter.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/counter.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/csv_reporter.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/csv_reporter.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/cycleclock.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/cycleclock.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/internal_macros.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/internal_macros.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/json_reporter.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/json_reporter.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/log.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/log.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/mutex.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/mutex.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/perf_counters.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/perf_counters.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/perf_counters.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/perf_counters.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/re.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/re.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/reporter.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/reporter.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/sleep.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/sleep.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/sleep.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/sleep.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/statistics.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/statistics.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/statistics.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/statistics.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/string_util.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/string_util.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/string_util.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/string_util.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/sysinfo.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/sysinfo.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/thread_manager.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/thread_manager.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/thread_timer.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/thread_timer.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/timers.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/timers.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/timers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/timers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/include/benchmark/benchmark.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/include/benchmark/benchmark.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/include/benchmark/export.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/include/benchmark/export.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark_main -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/src/benchmark_main.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/src/benchmark_main.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark_main -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/include/benchmark/benchmark.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/include/benchmark/benchmark.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark_main -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -x c++ -c external/benchmark/include/benchmark/export.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/benchmark/include/benchmark/export.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -D\"BENCHMARK_STATIC_DEFINE\" -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark_main -I bazel-out/darwin-fastbuild/bin/external/benchmark/_virtual_includes/benchmark -I . -I bazel-out/darwin-fastbuild/bin -I external/benchmark -I bazel-out/darwin-fastbuild/bin/external/benchmark -I external/bazel_tools -I bazel-out/darwin-fastbuild/bin/external/bazel_tools -x c++ -Iexternal/benchmark/include -Ilib/include -c lib/benchmark/benchmark_test.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "lib/benchmark/benchmark_test.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -I . -I bazel-out/darwin-fastbuild/bin -x c++ -std=c++20 -Ilib/include -c lib/source/word_generator.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "lib/source/word_generator.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -I . -I bazel-out/darwin-fastbuild/bin -x c++ -std=c++20 -Ilib/include -c lib/include/word_generator.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "lib/include/word_generator.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-actions.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-actions.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-cardinalities.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-cardinalities.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-function-mocker.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-function-mocker.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-generated-actions.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-generated-actions.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-generated-function-mockers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-generated-function-mockers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-generated-matchers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-generated-matchers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-matchers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-matchers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-more-actions.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-more-actions.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-more-matchers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-more-matchers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-nice-strict.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-nice-strict.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-spec-builders.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-spec-builders.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/internal/custom/gmock-generated-actions.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/internal/custom/gmock-matchers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/internal/custom/gmock-matchers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/internal/custom/gmock-port.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/internal/custom/gmock-port.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/internal/gmock-internal-utils.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/internal/gmock-internal-utils.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/internal/gmock-port.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/internal/gmock-port.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/internal/gmock-pp.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/internal/gmock-pp.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/src/gmock-cardinalities.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/src/gmock-cardinalities.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/src/gmock-internal-utils.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/src/gmock-internal-utils.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/src/gmock-matchers.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/src/gmock-matchers.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/src/gmock-spec-builders.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/src/gmock-spec-builders.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/src/gmock.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/src/gmock.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-death-test.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-death-test.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-matchers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-matchers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-message.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-message.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-param-test.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-param-test.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-printers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-printers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-spi.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-spi.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-test-part.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-test-part.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-typed-test.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-typed-test.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest_pred_impl.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest_pred_impl.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest_prod.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest_prod.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/internal/custom/gtest-port.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/internal/custom/gtest-port.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/internal/custom/gtest-printers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/internal/custom/gtest-printers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/internal/custom/gtest.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/internal/custom/gtest.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/internal/gtest-death-test-internal.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/internal/gtest-death-test-internal.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/internal/gtest-filepath.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/internal/gtest-filepath.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/internal/gtest-internal.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/internal/gtest-internal.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/internal/gtest-param-util.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/internal/gtest-param-util.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/internal/gtest-port-arch.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/internal/gtest-port-arch.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/internal/gtest-port.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/internal/gtest-port.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/internal/gtest-string.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/internal/gtest-string.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/internal/gtest-type-util.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/internal/gtest-type-util.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/src/gtest-death-test.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/src/gtest-death-test.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/src/gtest-filepath.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/src/gtest-filepath.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/src/gtest-internal-inl.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/src/gtest-internal-inl.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/src/gtest-matchers.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/src/gtest-matchers.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/src/gtest-port.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/src/gtest-port.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/src/gtest-printers.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/src/gtest-printers.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/src/gtest-test-part.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/src/gtest-test-part.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/src/gtest-typed-test.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/src/gtest-typed-test.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/src/gtest.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/src/gtest.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-actions.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-actions.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-cardinalities.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-cardinalities.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-function-mocker.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-function-mocker.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-generated-actions.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-generated-actions.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-generated-function-mockers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-generated-function-mockers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-generated-matchers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-generated-matchers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-matchers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-matchers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-more-actions.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-more-actions.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-more-matchers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-more-matchers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-nice-strict.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-nice-strict.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock-spec-builders.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock-spec-builders.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googlemock/include/gmock/gmock.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/include/gmock/gmock.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-death-test.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-death-test.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-matchers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-matchers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-message.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-message.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-param-test.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-param-test.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-printers.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-printers.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-spi.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-spi.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-test-part.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-test-part.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest-typed-test.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest-typed-test.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest_pred_impl.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest_pred_impl.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -pthread -c external/gtest/googletest/include/gtest/gtest_prod.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googletest/include/gtest/gtest_prod.h"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -x c++ -c external/gtest/googlemock/src/gmock_main.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "external/gtest/googlemock/src/gmock_main.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -isystem external/gtest/googlemock -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock -isystem external/gtest/googlemock/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googlemock/include -isystem external/gtest/googletest -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest -isystem external/gtest/googletest/include -isystem bazel-out/darwin-fastbuild/bin/external/gtest/googletest/include -I . -I bazel-out/darwin-fastbuild/bin -I external/gtest -I bazel-out/darwin-fastbuild/bin/external/gtest -I external/bazel_tools -I bazel-out/darwin-fastbuild/bin/external/bazel_tools -x c++ -Iexternal/gtest/include -Ilib/include -c lib/test/word_generator_test.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "lib/test/word_generator_test.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -I . -I bazel-out/darwin-fastbuild/bin -x c++ -std=c++20 -Ilib/include -c lib/source/word_generator.cc",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "lib/source/word_generator.cc"
+  },
+  {
+    "command": "external/local_config_cc/cc_wrapper.sh -U_FORTIFY_SOURCE -fstack-protector -Wall -Wthread-safety -Wself-assign -Wunused-but-set-parameter -Wno-free-nonheap-object -fcolor-diagnostics -fno-omit-frame-pointer -std=c++0x -no-canonical-prefixes -Wno-builtin-macro-redefined -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\" -I . -I bazel-out/darwin-fastbuild/bin -x c++ -std=c++20 -Ilib/include -c lib/include/word_generator.h",
+    "directory": "/private/var/tmp/_bazel_slysj/6f6d985300bff73f532ccaedde955477/execroot/__main__",
+    "file": "lib/include/word_generator.h"
+  }
+]

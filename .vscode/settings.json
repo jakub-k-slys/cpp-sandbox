@@ -1,0 +1,8 @@
+{
+    "bsv.bazel.buildFlags": [
+        //"--config=custom",
+    ],
+    "bsv.cc.compdb.targets": [
+        "//lib:all",
+    ]
+}
