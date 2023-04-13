@@ -4,5 +4,6 @@
     ],
     "bsv.cc.compdb.targets": [
         "//lib:all",
+        "//vector-reserve:all",
     ]
 }
