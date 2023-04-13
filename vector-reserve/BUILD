@@ -14,7 +14,7 @@ cc_library(
 )
 
 cc_test(
-    name = "vector-reserve-test",
+    name = "test",
     srcs = glob(["test/*.cc"]),
     copts = [
         "-Iexternal/gtest/include",
