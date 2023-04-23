@@ -3,25 +3,27 @@
 
 static void vector_push_back_benchmark_test(benchmark::State& state) {
   int no_of_elements = state.range(0);
-  std::vector<int> longs;
   for (auto _ : state) {
+    std::vector<int> ints;
     for(int i = 0; i < no_of_elements; ++i) {
-      longs.push_back(no_of_elements);
+      ints.push_back(no_of_elements);
+      benchmark::ClobberMemory();
     }
   }
 }
 
-BENCHMARK(vector_push_back_benchmark_test)->RangeMultiplier(2)->Range(1, 10000000);
+BENCHMARK(vector_push_back_benchmark_test)->RangeMultiplier(4)->Range(4, 10000000)->Repetitions(10);
 
 static void vector_reserve_before_push_back_benchmark_test(benchmark::State& state) {
   int no_of_elements = state.range(0);
-  std::vector<int> longs;
-  longs.reserve(no_of_elements);
   for (auto _ : state) {
+    std::vector<int> ints;
+    ints.reserve(no_of_elements);
     for(int i = 0; i < no_of_elements; ++i) {
-      longs.push_back(no_of_elements);
+      ints.push_back(no_of_elements);
+      benchmark::ClobberMemory();
     }
   }
 }
 
-BENCHMARK(vector_reserve_before_push_back_benchmark_test)->RangeMultiplier(2)->Range(1, 10000000);
+BENCHMARK(vector_reserve_before_push_back_benchmark_test)->RangeMultiplier(4)->Range(4, 10000000)->Repetitions(10);
